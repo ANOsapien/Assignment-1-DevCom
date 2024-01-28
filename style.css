@@ -1,0 +1,26 @@
+#text{
+    color:rgb(43, 226, 113);
+    background-color: rgb(121, 15, 94);
+    border:rgb(43, 205, 226) 20px solid;
+    border-radius: 130%;
+    padding: 50px ;
+    padding-left: 10%;
+    margin:50px;
+    font-family: Tahoma, Helvetica, serif;
+}
+#grad {
+    background-image: radial-gradient(red, yellow, green);
+  }
+#bigbox{
+    display:flexbox;
+}
+#bigbox div {
+    flex:1;
+
+}
+#bigbox #flex2{
+    flex:2;
+}
+#bigbox #flex3{
+    flex:2;
+}

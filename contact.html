@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <title>Contact</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="contact.css">
+        <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+
+    </HEAD>
+    <body >
+        <div class="topnav">
+            <div class="topnav-left">
+                <a href="home.html"><img src="anosapien.jpg" height="45px" width="45px"></a>
+            </div>
+            <div id="leftyy">
+            <a class="lefty" href="home.html">Home</a>
+            <a class="lefty" href="hobby.html">Hobbies</a>
+            <a class="lefty" href="contact.html">Contact</a>
+            </div>
+            <div class="topnav-right">
+                <a href="https://www.instagram.com/ananyapriyaroop/"><img height="45px" width="45px" src="insta.png" alt="instagram"></a>
+                <a href="https://www.linkedin.com/in/ananya-priyaroop-2404a1200/"><img height="45px" width="45px" src="linkedin.png" alt="linkedin"></a>
+            </div>
+          </div>
+
+        <form action="mailto:priyaroopananya@gmail.com" autocomplete="on" method="post">
+            <label for="fname">First name<span class="required">*</span>:</label>
+            <input type="text" id="fname" name="fname" required ><br>
+            <label for="lname">Last name<span class="required">*</span>:</label>
+            <input type="text" id="lname" name="lname" required><br>
+            <label for="num">Contact no.:</label>
+            <input type="number" id="num" name="num" maxlength="10" ><br>
+            
+            <label for="msg">Message<span class="required">*</span>:</label>
+            <textarea id="msg" name="msg"  required></textarea>            <br><br>
+            <input type="submit" value="Submit" class="but">
+            <input type="reset" value="Reset" class="but">
+          </form>
+        </body>
+`
